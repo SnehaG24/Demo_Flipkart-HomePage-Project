@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+
+    background: var(--main-bg-color);
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    width: 99vw;
+    height: 9vh;
+    /* border: 2px solid red;  */
+}
+
+nav {
+    display: flex;
+    margin-left: 50px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding: 0px 24px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0px 21px;
+    /* text-transform: uppercase; */
+    /* padding: 23px; */
+    /* display: inline-block;
+    padding: 15px; */
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    /* text-align: center; */
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    color: brown;
+    font-size: 17px;
+}
+
+nav ul {
+    display: flex;
+    /* gap: 40px;
+    margin-left: 10px; */
+    height: 56px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.Input1 {
+    /* margin-top: 12px; */
+    /* instead of this property : = .search */
+    width: 400px;
+    height: 27.5px;
+    margin-left: 20px;
+}
+
+.Input2 {
+    background-color: white;
+    margin-top: 3px;
+    height: 4vh;
+}
+
+.Input3 {
+
+    transform: translate(70px, 0px);
+    height: 6vh;
+
+}
+
+.butn {
+    width: 5vw;
+    height: 5vh;
+    transform: translate(120px, 0px);
+    font-weight: bold;
+}
+
+.butn1 {
+    width: 5vw;
+    height: 5vh;
+    transform: translate(140px, 0px);
+    font-weight: bold;
+}
+
+.anchor {
+    transform: translate(170px, 0px);
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    min-height: calc(100vh - 56px - 9vh);
+}
+
+.slider {
+    /* 1) transform: translate(200px,5px); */
+
+    /* 2) margin: auto;
+    width: 80vw;
+    margin-top: 2px */
+
+    display: flex;
+    /* margin-left:200px; */
+    justify-content: center;
+    margin-top: 59px;
+    /* overflow: hidden; */
+    /* margin: 2px auto auto auto; */
+
+}
+
+.card-items {
+    display: flex;
+    gap: 30px;
+    overflow: scroll;
+    width: 90.4vw;
+}
+
+.cards {
+
+    height: 41vh;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 30px;
+}
+
+figcaption {
+    font-family: 'Roboto Slab', serif;
+    color: crimson;
+    font-weight: 900;
+}
+
+.todaysdeal {
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+
+}
+
+.todaysdeal:hover {
+    /* width: 187px; */
+    height: 216px;
+}
+
+footer {
+
+    height: 9vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+
+}
